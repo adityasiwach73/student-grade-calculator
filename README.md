@@ -1,36 +1,26 @@
 # 🎓 Student Grade Calculator
 
-A menu-driven Python application developed to manage student records and automatically calculate grades based on students' average marks.
+A simple and interactive **menu-driven Python application** that helps manage student records and automatically calculates grades based on average marks.
 
-## 📖 Overview
-
-This project allows users to:
-- Add new student records
-- Display all student records
-- Search students by roll number
-- Update student marks
-- Delete student records
-- Automatically calculate total, average, and grade
-
-The project is built using Python and demonstrates the use of functions, loops, lists, dictionaries, and conditional statements.
+This project was developed to practice Python programming concepts such as functions, loops, lists, dictionaries, conditional statements, and user input handling.
 
 ---
 
 ## ✨ Features
 
-- ➕ Add Student
-- 📋 Display All Students
-- 🔍 Search Student
-- ✏️ Update Student Marks
-- 🗑️ Delete Student
-- 📊 Calculate Total Marks
-- 📈 Calculate Average Marks
-- 🏆 Automatic Grade Calculation
-- ✅ Marks Validation (0–100)
+- ➕ Add new student records
+- 📋 Display all student records
+- 🔍 Search students by roll number
+- ✏️ Update student marks
+- 🗑️ Delete student records
+- 📊 Calculate total marks
+- 📈 Calculate average marks
+- 🏆 Automatic grade calculation
+- ✅ Input validation for marks (0–100)
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3
 - Functions
@@ -43,8 +33,8 @@ The project is built using Python and demonstrates the use of functions, loops, 
 
 ## 📊 Grade Criteria
 
-| Average | Grade |
-|---------|-------|
+| Average Marks | Grade |
+|---------------|-------|
 | 90 - 100 | A+ |
 | 80 - 89 | A |
 | 70 - 79 | B |
@@ -54,15 +44,35 @@ The project is built using Python and demonstrates the use of functions, loops, 
 
 ---
 
+## 📂 Project Structure
+
+```
+student-grade-calculator/
+│
+├── main.py
+├── README.md
+└── screenshots/
+    ├── menu.png
+    ├── add_student.png
+    ├── display_students.png
+    └── search_student.png
+```
+
+---
+
 ## ▶️ How to Run
 
-1. Clone this repository.
+1. Clone the repository.
+
+```
+git clone https://github.com/YourUsername/student-grade-calculator.git
+```
 
 2. Open the project folder.
 
-3. Run:
+3. Run the program.
 
-```bash
+```
 python main.py
 ```
 
@@ -74,28 +84,45 @@ python main.py
 
 ![Main Menu](screenshots/menu.png)
 
+---
+
 ### Add Student
 
 ![Add Student](screenshots/add_student.png)
+
+---
 
 ### Display Students
 
 ![Display Students](screenshots/display_students.png)
 
+---
+
 ### Search Student
 
 ![Search Student](screenshots/search_student.png)
 
+---
+
+## 💡 Concepts Used
+
+- Functions
+- Loops
+- Lists
+- Dictionaries
+- Conditional Statements
+- User Input Handling
+- Menu-Driven Programming
 
 ---
 
 ## 🚀 Future Improvements
 
-- Store student records using JSON or CSV
-- Add exception handling
+- Store student records permanently using JSON or CSV files
+- Add exception handling using `try-except`
 - Prevent duplicate roll numbers
 - Build a graphical user interface (GUI)
-- Export student reports
+- Generate printable student reports
 
 ---
 
@@ -103,4 +130,8 @@ python main.py
 
 **Aditya Siwach**
 
-Aspiring Software Developer | Learning Python, Java, and Data Structures & Algorithms.
+Learning Python, Java, and Data Structures & Algorithms while building beginner-friendly projects.
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
