@@ -65,7 +65,7 @@ student-grade-calculator/
 1. Clone the repository.
 
 ```
-git clone https://github.com/YourUsername/student-grade-calculator.git
+git clone https://github.com/adityasiwach73/student-grade-calculator.git
 ```
 
 2. Open the project folder.
