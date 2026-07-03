@@ -70,7 +70,18 @@ python main.py
 
 ## 📸 Screenshots
 
-Screenshots of the application are available in the `screenshots` folder.
+### Main Menu
+![Main Menu](screenshots/menu.png)
+
+### Add Student
+![Add Student](screenshots/add_student.png)
+
+### Display Students
+![Display Students](screenshots/display_students.png)
+
+### Search Student
+![Search Student](screenshots/search_student.png)
+
 
 ---
 
